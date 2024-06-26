@@ -1,4 +1,4 @@
-/*-----------------------------------*\
+/* -----------------------------------*\
  * style.css
 \*-----------------------------------*/
 
@@ -497,7 +497,13 @@ padding-right: 0px;
 .hero .btn-primary { margin-inline: auto; }
 
 
-
+.hero-content-hello{
+  color:  hwb(24 27% 11%);
+  font-size: var(--fs-3);
+  text-justify: inter-word;
+  padding-left: 58px;
+  justify-content: center;
+}
 
 
 /*-----------------------------------*\
@@ -589,7 +595,7 @@ padding-right: 0px;
 
 
 
-
+.education-card { padding-block: var(--section-padding); }
 
 .education-content {
     max-width: 1500px;
@@ -1300,6 +1306,12 @@ textarea.input-field {
 
   .about-banner { margin-bottom: 0; }
 
+/** 
+*Education
+*/
+
+
+.about-banner { margin-bottom: 0; }
 
 
 
@@ -1405,3 +1417,5 @@ textarea.input-field {
   .about-banner { max-width: 450px; }
 
 }
+
+
