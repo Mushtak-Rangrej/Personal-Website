@@ -814,7 +814,7 @@ h2 {
  * #CONTACT
 \*-----------------------------------*/
 
-.contact { padding-block: var(--section-padding); }
+/* .contact { padding-block: var(--section-padding); }
 
 .contact-content { margin-bottom: 50px; }
 
@@ -928,6 +928,218 @@ textarea.input-field {
   background: var(--color-primary);
   color: var(--bg-primary);
 }
+ */
+
+
+/*----------- Contact ---------
+--------------------------------
+*/
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-section {
+    padding: 60px 0;
+  }
+  
+  .heading-section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .heading-section h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .heading-section p {
+    color: #999999;
+    font-size: 16px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .info-box {
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+  }
+  
+  .icon {
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .info-box:hover .icon {
+    background-color: #333333;
+  }
+  
+  .info-box h3 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .info-box p,
+  .info-box a {
+    font-size: 12px;
+    color: #999999;
+    text-decoration: none;
+  }
+  
+  .info-box a:hover {
+    color: #ffcc00;
+  }
+  
+  .bottom-info {
+    margin-top: 30px;
+    text-align: center;
+    color: #999999;
+  }
+  
+  .bottom-info p {
+    margin: 5px 0;
+  }
+  
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container-question {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-7 {
+    text-align: center;
+}
+
+/* Have a Question Section */
+h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h2 span {
+    color: #ffcc00;
+}
+
+.btn {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+    color: #ffffff;
+}
+
+ul.ftco-footer-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+ul.ftco-footer-social li {
+    margin: 0 10px;
+}
+
+ul.ftco-footer-social li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+ul.ftco-footer-social li a:hover {
+    color: #ffcc00;
+}
+
+/* Normal text */
+.normal-txt {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+/* Animations */
+.ftco-animate {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
