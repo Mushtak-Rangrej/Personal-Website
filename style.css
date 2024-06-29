@@ -945,16 +945,8 @@ textarea.input-field {
    *//* General Styles */
 
 /* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #ffffff;
-    background-color: #000000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
+
+  .container-contact-section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
