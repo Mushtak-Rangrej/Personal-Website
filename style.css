@@ -934,7 +934,7 @@ textarea.input-field {
 /*----------- Contact ---------
 --------------------------------
 */
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #ffffff;
@@ -942,8 +942,10 @@ body {
     margin: 0;
     padding: 0;
   }
+   *//* General Styles */
+
   
-  .container {
+  .container-contact-section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -1031,14 +1033,6 @@ body {
   
 
 /* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #ffffff;
-    background-color: #000000;
-    margin: 0;
-    padding: 0;
-}
 
 .container-question {
     max-width: 1200px;
@@ -1101,6 +1095,23 @@ ul.ftco-footer-social li a {
 
 ul.ftco-footer-social li a:hover {
     color: #ffcc00;
+}
+
+
+
+
+
+/* Hover effect for the "Find me on" text */
+.normal-txt h2:hover {
+    color: #ffcc00;
+    transition: color 0.3s ease;
+}
+
+
+
+
+.ftco-animate normal-txt :hover{
+    color:#ffcc00
 }
 
 /* Normal text */
