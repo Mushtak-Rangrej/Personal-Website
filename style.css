@@ -944,8 +944,17 @@ textarea.input-field {
   }
    *//* General Styles */
 
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
   
-  .container-contact-section {
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -1001,7 +1010,7 @@ textarea.input-field {
   }
   
   .info-box:hover .icon {
-    background-color: #333333;
+    background-color: #f5ebc4;
   }
   
   .info-box h3 {
@@ -1100,12 +1109,35 @@ ul.ftco-footer-social li a:hover {
 
 
 
-
-/* Hover effect for the "Find me on" text */
-.normal-txt h2:hover {
-    color: #ffcc00;
-    transition: color 0.3s ease;
+/* Hover effect for the LinkedIn and GitHub list items */
+.ftco-animate a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    
 }
+
+/* Additional styling for icon and image within the anchor tag on hover */
+.ftco-animate a:hover span,
+.ftco-animate a:hover img {
+    transform: scale(1.5,1.5);
+    transition: transform 0.3s ease;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
